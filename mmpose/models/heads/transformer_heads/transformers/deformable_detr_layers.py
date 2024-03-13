@@ -4,7 +4,7 @@ from typing import Optional, Tuple, Union
 import torch
 from mmcv.cnn import build_norm_layer
 from mmcv.cnn.bricks.transformer import FFN, MultiheadAttention
-from mmcv.ops import MultiScaleDeformableAttention
+#from mmcv.ops import MultiScaleDeformableAttention
 from mmengine.model import ModuleList
 from torch import Tensor, nn
 
